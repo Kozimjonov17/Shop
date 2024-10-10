@@ -34,7 +34,6 @@ public class Product {
     @Column(name = "prod_image", columnDefinition = "LONGBLOB")
     private byte[] image;
 
-    @Column(name = "prod_image_type")
-    private String imageType;
+
 
 }
